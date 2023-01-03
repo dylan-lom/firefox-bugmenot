@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "bugmenot",
+  "version": "1.0",
+  "description": "Looks up shared password for current site on bugmenot.com",
+
+  "icons": {
+    "48": "icons/favicon48.png"
+  },
+
+  "permissions": [ "activeTab", "tabs" ],
+  "browser_action": {
+    "default_icon": "icons/favicon48.png",
+    "default_title": "bugmenot",
+    "default_popup": "index.html"
+  }
+}
