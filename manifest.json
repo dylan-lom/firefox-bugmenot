@@ -1,9 +1,13 @@
 {
-
   "manifest_version": 2,
   "name": "bugmenot",
   "version": "1.0",
   "description": "Looks up shared password for current site on bugmenot.com",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "firefox-bugmenot@dlom.cc"
+    }
+  },
 
   "icons": {
     "48": "icons/favicon48.png"
